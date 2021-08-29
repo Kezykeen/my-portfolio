@@ -38,6 +38,7 @@ export const BlogCard = styled.div`
 `;
 export const TitleContent = styled.div`
   text-align: center;
+  margin-top: 20px;
   z-index: 20;
   width: 100%;
 `;
