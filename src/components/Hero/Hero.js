@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 import { Section, SectionText } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import AnimatedText from "../AnimatedText/AnimatedText";
@@ -15,7 +15,9 @@ const Hero = (props) => (
           abilities in JavaScript, React JS, .NET Core, RESTful APIs. Focused on
           delivering clean, error-free code for scalable, user-friendly designs.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Link href="#about">
+          <Button onClick={props.handleClick}>Learn More</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>
