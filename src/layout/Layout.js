@@ -9,7 +9,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Kezy's Portfoilo</title>
+        <title>Kezy</title>
       </Head>
       <Container>
         <Header />
