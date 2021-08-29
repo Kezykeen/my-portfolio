@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import {
   BlogCard,
   CardInfo,
@@ -28,7 +28,13 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} />
+            <Image
+              src={p.image}
+              alt={p.title}
+              width={340}
+              height={166}
+              layout="responsive"
+            />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />

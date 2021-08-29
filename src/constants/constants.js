@@ -3,7 +3,7 @@ export const projects = [
     title: "LinkedIn-Clone",
     description:
       "This is a linkedIn clone built using React and Firebase for storage and deployment which simulates linkedIn processes.",
-    image: "../images/linkedIn-clone.PNG",
+    image: "/images/linkedIn-clone.PNG",
     tags: ["React", "Firebase", "Material UI", "Redux Toolkit"],
     source: "https://github.com/Kezykeen/LinkedIn-Clone",
     visit: "https://linkedin-clone-d9c75.web.app/",
@@ -13,7 +13,7 @@ export const projects = [
     title: "Gmail-Clone",
     description:
       "This is a linkedIn clone built using React and Firebase for storage and deployment which simulates linkedIn processes.",
-    image: "../images/gmail-clone.PNG",
+    image: "/images/gmail-clone.PNG",
     tags: ["React", "Firebase", "Material UI", "Redux Toolkit"],
     source: "https://github.com/Kezykeen/Gmail-Clone",
     visit: "https://kezy-gmail-clone.vercel.app/",
@@ -23,7 +23,7 @@ export const projects = [
     title: "Moshify",
     description:
       "A single paged mobile responsive dummy platform for hosting websites. ",
-    image: "../images/moshify.PNG",
+    image: "/images/moshify.PNG",
     tags: ["HTML5", "CSS3", "JavaScript"],
     source: "https://github.com/Kezykeen/Moshify",
     visit: "https://prohosting.netlify.app/",
@@ -33,7 +33,7 @@ export const projects = [
     title: "FYLO",
     description:
       "Fylo is a single paged mobile responsive website designed using HTML5, CSS3 and Bootstrap. This was a practice site from frontend mentor.",
-    image: "../images/fylo.PNG",
+    image: "/images/fylo.PNG",
     tags: ["HTML5", "CSS3"],
     source: "https://github.com/Kezykeen/Fylo",
     visit: "https://fylo-kezyapps.netlify.app/",
