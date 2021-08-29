@@ -1,46 +1,60 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "LinkedIn-Clone",
+    description:
+      "This is a linkedIn clone built using React and Firebase for storage and deployment which simulates linkedIn processes.",
+    image: "/images/1.png",
+    tags: ["React", "Firebase", "Material UI", "Redux Toolkit"],
+    source: "https://github.com/Kezykeen/LinkedIn-Clone",
+    visit: "https://linkedin-clone-d9c75.web.app/",
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "FYLO",
+    description:
+      "This is a single page design using html5, css3 and bootstrap. This was a test from frontend mentor.",
+    image: "/images/2.png",
+    tags: ["HTML5", "CSS3"],
+    source: "https://github.com/Kezykeen/Fylo",
+    visit: "https://fylo-kezyapps.netlify.app/",
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "WebRTC App",
+    description:
+      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    image: "/images/3.jpg",
+    tags: ["React", "WebRTC"],
+    source: "https://google.com",
+    visit: "https://google.com",
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Unichat",
+    description:
+      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: "/images/4.jpg",
+    tags: ["React", "ChatEngine", "Firebase"],
+    source: "https://google.com",
+    visit: "https://google.com",
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: "Started my journey as a self taught web developer" },
+  { year: 2019, text: "Interned at HNG" },
+  { year: 2019, text: "Interned at Genesys Tech hub" },
+  { year: 2020, text: "Work at Tenece" },
+];
+
+export const data = [
+  { number: 3, text: "Live Projects" },
+  { number: 26, text: "Github Repositories" },
+];
+
+export const words = [
+  "Hey there!",
+  "My Name's Kingsley",
+  "I'm a FullStack Developer.",
 ];
