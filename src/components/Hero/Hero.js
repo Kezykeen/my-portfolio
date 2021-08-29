@@ -3,7 +3,6 @@ import React from "react";
 import { Section, SectionText } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import AnimatedText from "../AnimatedText/AnimatedText";
-import Typing from "../Typing";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
@@ -12,9 +11,10 @@ const Hero = (props) => (
       <AnimatedText />
       <LeftSection>
         <SectionText>
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          Skilled Software Developer bringing high level of technical abilities
+          in JavaScript/ES6/ES2017, React JS, C#, .NET Core, RESTful APIs.
+          Focused on delivering clean, error-free code for scalable,
+          user-friendly designs.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
