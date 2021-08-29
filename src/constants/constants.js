@@ -17,7 +17,7 @@ export const projects = [
     tags: ["React", "Firebase", "Material UI", "Redux Toolkit"],
     source: "https://github.com/Kezykeen/Gmail-Clone",
     visit: "https://kezy-gmail-clone.vercel.app/",
-    id: 3,
+    id: 1,
   },
   {
     title: "Moshify",
@@ -37,7 +37,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     source: "https://github.com/Kezykeen/Fylo",
     visit: "https://fylo-kezyapps.netlify.app/",
-    id: 1,
+    id: 3,
   },
 ];
 
