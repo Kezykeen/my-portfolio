@@ -34,6 +34,7 @@ export const BlogCard = styled.div`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-top: 20px;
   }
 `;
 export const TitleContent = styled.div`
@@ -104,6 +105,7 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 2rem;
 `;
 export const Tag = styled.li`
