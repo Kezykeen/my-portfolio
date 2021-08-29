@@ -11,10 +11,9 @@ const Hero = (props) => (
       <AnimatedText />
       <LeftSection>
         <SectionText>
-          Skilled Software Developer bringing high level of technical abilities
-          in JavaScript/ES6/ES2017, React JS, C#, .NET Core, RESTful APIs.
-          Focused on delivering clean, error-free code for scalable,
-          user-friendly designs.
+          Skilled Software Developer bringing a high level of technical
+          abilities in JavaScript, React JS, .NET Core, RESTful APIs. Focused on
+          delivering clean, error-free code for scalable, user-friendly designs.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
