@@ -8,7 +8,7 @@ import {
 import { SocialIcons } from "../Header/HeaderStyles";
 import { SectionDivider } from "../../styles/GlobalComponents";
 import {
-  CompanyContainer,
+  SloganContainer,
   FooterWrapper,
   LinkColumn,
   LinkItem,
@@ -36,9 +36,9 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
+        <SloganContainer>
           <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
+        </SloganContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/kezykeen">
             <AiFillGithub size="3rem" />
