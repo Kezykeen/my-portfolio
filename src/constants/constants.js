@@ -30,14 +30,14 @@ export const projects = [
     id: 2,
   },
   {
-    title: "FYLO",
+    title: "Invearn",
     description:
-      "Fylo is a single paged mobile responsive website designed using HTML5, CSS3 and Bootstrap. This was a practice site from frontend mentor.",
-    image: "/images/fylo.PNG",
-    tags: ["HTML5", "CSS3"],
-    source: "https://github.com/Kezykeen/Fylo",
-    visit: "https://fylo-kezyapps.netlify.app/",
+      "Invearn is a multifacet investment solution being built using React and Typescript",
+    image: "/images/invearn home.png",
+    tags: ["React", "TypeScript", "Node", "Redux Toolkit"],
+    visit: "https://oasis-investor-dev.africaprudential.net/",
     id: 3,
+
   },
 ];
 
@@ -46,6 +46,7 @@ export const TimeLineData = [
   { year: 2019, text: "Interned at HNG" },
   { year: 2019, text: "Interned at Genesys Tech hub" },
   { year: 2020, text: "Work at Tenece" },
+  { year: 2021, text: "Contract Staff at Africa Prudential Plc" }
 ];
 
 export const data = [

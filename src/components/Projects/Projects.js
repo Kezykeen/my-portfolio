@@ -20,7 +20,8 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-const Projects = () => (
+const Projects = () => {
+  return (
   <Section id="projects">
     <SectionDivider divider colorAlt />
     <SectionTitle main>Projects</SectionTitle>
@@ -49,14 +50,15 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Live Demo</ExternalLinks>
-              <ExternalLinks href={p.source}>Source Code</ExternalLinks>
+              {p.visit && <ExternalLinks href={p.visit}>Live Demo</ExternalLinks>}
+              {p.source &&  <ExternalLinks href={p.source}>Source Code</ExternalLinks>}
             </UtilityList>
           </BlogCard>
         );
       })}
     </GridContainer>
   </Section>
-);
+)
+}
 
 export default Projects;
