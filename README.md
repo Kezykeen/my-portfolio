@@ -23,12 +23,6 @@ if you have it then install the project's dependencies:
 yarn install
 ```
 
-to only install for one of the folders(topbar, sidebar, control)
-
-```bash
-yarn setup:<FOLDER-NAME>
-```
-
 ## STARTING THE SERVER
 
 To start the whole application server
@@ -36,3 +30,5 @@ To start the whole application server
 ```bash
 yarn run dev
 ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
