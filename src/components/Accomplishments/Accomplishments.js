@@ -14,8 +14,8 @@ const Acomplishments = () => (
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
+        <Box key={index} noNumber={!!!card.number}>
+          {card.number && <BoxNum>{`${card.number}+`}</BoxNum>}
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
